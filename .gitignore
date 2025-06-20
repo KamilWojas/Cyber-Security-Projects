@@ -1,4 +1,4 @@
-# IntelliJ IDEA project files
+# IntelliJ IDEA
 .idea/
 *.iml
 
@@ -7,37 +7,32 @@
 target/
 build/
 
-# Logs and temp files
-*.log
-*.tmp
-*.swp
-*.swo
+# Python virtual environments
+venv/
+.env
+.venv
+env/
+ENV/
 
-# Python artifacts
+# Python bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-.env
-.venv
-env/
-venv/
 
-# Documentation build (e.g., Sphinx, MkDocs)
+# Dokumentacja generowana (np. Sphinx, MkDocs)
 docs/_build/
 
-# OS generated files
+# System files
 .DS_Store
 Thumbs.db
 
-# Test results
-*.xml
+# Logs and temp files
+*.log
+*.tmp
 
-# Compiled Java classes
-*.class
-
-# VS Code (if you use it occasionally)
-.vscode/
-
-# Jupyter Notebook checkpoints (if you use notebooks)
+# Jupyter Notebooks checkpoints (jeśli używasz)
 .ipynb_checkpoints/
+
+# VSCode
+.vscode/
