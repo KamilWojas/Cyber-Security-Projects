@@ -1,8 +1,8 @@
-# IntelliJ IDEA
+# IntelliJ IDEA project files
 .idea/
 *.iml
 
-# System build
+# Build output directories
 /out/
 target/
 build/
@@ -13,7 +13,7 @@ build/
 *.swp
 *.swo
 
-# Python artifacts (jeśli masz kod Python)
+# Python artifacts
 __pycache__/
 *.pyc
 *.pyo
@@ -23,7 +23,7 @@ __pycache__/
 env/
 venv/
 
-# Dokumentacja generowana (np. Sphinx, MkDocs)
+# Documentation build (e.g., Sphinx, MkDocs)
 docs/_build/
 
 # OS generated files
@@ -33,6 +33,11 @@ Thumbs.db
 # Test results
 *.xml
 
-# Inne typowe
+# Compiled Java classes
 *.class
 
+# VS Code (if you use it occasionally)
+.vscode/
+
+# Jupyter Notebook checkpoints (if you use notebooks)
+.ipynb_checkpoints/
