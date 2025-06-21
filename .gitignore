@@ -1,38 +1,21 @@
-# IntelliJ IDEA
 .idea/
 *.iml
-
-# Build output directories
-/out/
+out/
 target/
 build/
-
-# Python virtual environments
 venv/
 .env
 .venv
 env/
 ENV/
-
-# Python bytecode
 __pycache__/
 *.pyc
 *.pyo
 *.pyd
-
-# Dokumentacja generowana (np. Sphinx, MkDocs)
 docs/_build/
-
-# System files
 .DS_Store
 Thumbs.db
-
-# Logs and temp files
 *.log
 *.tmp
-
-# Jupyter Notebooks checkpoints (jeśli używasz)
 .ipynb_checkpoints/
-
-# VSCode
 .vscode/
